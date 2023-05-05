@@ -17,7 +17,7 @@ README.md:プログラム説明
 ・Googleアカウント  
 
 ●前準備    
-1. チャネルを作成する(https://developers.line.biz/ja/docs/messaging-api/)    
+1.チャネルを作成する(https://developers.line.biz/ja/docs/messaging-api/)    
 2.スケジュールを記録するSpreadSheetを用意し，シート2を追加，共有をリンクを知っている全員にする      
 3.SpreadSheetの拡張機能→AppScriptから新規プロジェクトを作成する  
 4.エディタ→サービスを追加からGoogleSheetsAPIを追加  
@@ -25,7 +25,7 @@ README.md:プログラム説明
 &ensp; 5.1プロパティ:Id，値:LineのユーザID  
 &ensp; 5.2プロパティ:Token，値:LineDeveloppersのチャネルからMessaging API設定のチャネルアクセストークン   
 &ensp; 5.3プロパティ:SheetsURL，作成したSpreadSheetのURL  
-6. エディタ→ファイルを追加→スクリプトからline.gsとsheet.gs，trigger.gsを追加しそれぞれの中身をコピペする  
+6.エディタ→ファイルを追加→スクリプトからline.gsとsheet.gs，trigger.gsを追加しそれぞれの中身をコピペする  
 7.トリガー→トリガーを追加から，実行する関数をdeleteTrigger，イベントのソースを時間主導型，時間ベースのトリガーを日付ベースのタイマー，時刻を深夜等のスケジュールを設定しない時間に指定する  
 8.新しいデプロイ→ウェブアプリ，アクセスできるユーザを全員にしてデプロイ，URLをコピーする  
 9.LineDeveloppersのチャネルからMessaging API設定のWebhook URLに先ほどのURLをペースト  
