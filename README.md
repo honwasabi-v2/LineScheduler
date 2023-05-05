@@ -1,6 +1,6 @@
-#Scheduler(Line,GAS)  
+#LineScheduler
 ●プログラム説明  
-Lineで操作するスケジューラ．LineからGoogleSpreadSheetsにスケジュールを登録し，登録した時間にLineで通知する．  
+Lineで操作するスケジューラ．LineからGASを用いてGoogleSpreadSheetsにスケジュールを登録し，登録した時間にLineで通知する．  
 
 
 ●内容  
